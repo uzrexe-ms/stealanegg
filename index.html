@@ -1,0 +1,647 @@
+<!DOCTYPE html><html lang="en">
+<!-- Mirrored from holoiday.pages.dev/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Sep 2026 15:21:25 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steal an Egg all drops</title>
+    <meta name="description" content="Get free steal an egg pets and eggs on Roblox! Claim Beachy, Sands, Ocean and more pets and eggs for free. Working steal an egg codes and generator 2026.">
+    <meta name="keywords" content="steal an egg Roblox, steal an egg free godly, steal an egg free eggs, steal an egg free pets, steal an egg codes, steal an egg generator, free steal an egg pets and eggs, steal an egg chroma, steal an egg ancient">
+    <meta property="og:title" content="steal an egg Roblox - STEAL AN EGG FREE PETS AND EGGS">
+    <meta property="og:description" content="Get free steal an egg items on Roblox! Claim Beachy, Sands, Ocean, Diamonds and Secret Eggs for free.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="steal an egg Free Items">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="steal an egg Roblox - STEAL AN EGG FREE PETS AND EGGS">
+    <meta name="twitter:description" content="Get free steal an egg items on Roblox! Claim Beachy, Sands, Ocean and more for free.">
+    <meta name="robots" content="index,follow">
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&amp;family=Rubik:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <div class="lang-switcher" aria-label="Language switcher">
+        <button class="lang-button" id="lang-button" type="button" aria-haspopup="listbox" aria-expanded="false">
+            <span class="lang-icon" aria-hidden="true">🌐</span>
+            <span class="lang-label">EN</span>
+        </button>
+        <select id="language-select" class="lang-select" aria-label="Select language">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="fr">Français</option>
+            <option value="ar">العربية</option>
+            <option value="pt">Português</option>
+            <option value="fil">Filipino</option>
+        </select>
+    </div>
+
+<!-- iOS Redirect Popup -->
+    <div id="ios-popup" class="ios-popup" style="display:none">
+        <div class="ios-popup-background"></div>
+        <div class="ios-popup-content">
+            <div class="ios-gif-container">
+                <img src="images/548511907.gif" alt="Instructions GIF" class="ios-instruction-gif">
+            </div>
+            <div class="ios-instruction-text">
+                <h3  "ios_title">Open in Browser Required</h3>
+                <p data-i18n-html="ios_text">Please click on the <strong>three dots (⋯)</strong> at the top and select
+                    <strong>"Open in Browser"</strong> to claim your free steal an egg items.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fake Generator Modal -->
+    <div id="gen-modal" class="gen-modal" role="dialog" aria-modal="true" aria-labelledby="gen-modal-title">
+        <div class="gen-backdrop"></div>
+        <div class="gen-box">
+<button type="button" onclick="closeGenModal()" aria-label="Close offers" style="float:right;background:transparent;color:inherit;border:0;font-size:24px;cursor:pointer">×</button>
+
+            <!-- Header -->
+            <div class="gen-header">
+                <div class="gen-logo-row">
+                    <img src="images/steal_an_egg_logo.png" alt="steal an egg" class="gen-logo-img">
+                    <div>
+                        <div class="gen-label"  "gen_header_title">Claim Free Item</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SCREEN 1: Username input -->
+            <div id="gen-screen-1" class="gen-screen active">
+                <div class="gen-item-preview" id="gen-item-preview">
+                    <img id="gen-item-img" src="images/beachy.png" alt="Item" class="gen-item-thumb">
+                    <div class="gen-item-details">
+                        <div class="gen-item-name" id="gen-item-name">Beachy</div>
+                        <div class="gen-item-badge"  "gen_free_drop">FREE DROP</div>
+                    </div>
+                </div>
+                <p class="gen-desc">Enter your roblox username to start generating.</p>
+                <div class="gen-input-wrap">
+                    <span class="gen-input-icon">👤</span>
+                    <input type="text" id="gen-username-input" class="gen-input" placeholder="Your Roblox username" data-i18n-placeholder="gen_input_placeholder" maxlength="20" autocomplete="off" autocapitalize="none" autocorrect="off" onkeydown="if(event.key==='Enter') startFakeGen()">
+                </div>
+                <div id="gen-error" class="gen-error-msg"></div>
+                <button class="gen-btn-primary" id="gen-btn-start" onclick="startFakeGen()"  "gen_btn_claim">
+                    Claim Now
+                </button>
+                <div class="gen-security-row">
+                    <span class="gen-security-dot"></span>
+                    <span  "gen_security">Secure connection · No password required</span>
+                </div>
+            </div>
+
+            <!-- SCREEN 2: Fake progress + Scanner -->
+            <div id="gen-screen-2" class="gen-screen">
+                <div class="gen-progress-header">
+                    <div class="avatar-scanner-container" id="avatar-scanner-container">
+                        <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%231a1a26'/><circle cx='50' cy='35' r='18' fill='%23e63946'/><path d='M15 85c0-15 15-22 35-22s35 7 35 22z' fill='%23e63946'/></svg>" alt="Roblox User" class="scanner-avatar-img" id="scanner-avatar-img">
+                        <div class="scanner-laser"></div>
+                    </div>
+                    <div id="scanner-username" class="scanner-username-label">Username</div>
+                    <p class="gen-progress-label" id="gen-progress-label"  "gen_connecting">Connecting to server...</p>
+                </div>
+                <div class="gen-steps" id="gen-steps">
+                    <div class="gen-step" id="gstep-1">
+                        <div class="gen-step-icon" id="gstep-1-icon"><span class="gen-step-num">1</span></div>
+                        <div class="gen-step-text">
+                            <div class="gen-step-title"  "gen_step1_title">Locating account</div>
+                            <div class="gen-step-sub" id="gstep-1-sub"  "gen_step1_sub">Searching Roblox servers...</div>
+                        </div>
+                    </div>
+                    <div class="gen-step" id="gstep-2">
+                        <div class="gen-step-icon" id="gstep-2-icon"><span class="gen-step-num">2</span></div>
+                        <div class="gen-step-text">
+                            <div class="gen-step-title"  "gen_step2_title">Generating item</div>
+                            <div class="gen-step-sub" id="gstep-2-sub"  "gen_step2_sub">Preparing your drop...</div>
+                        </div>
+                    </div>
+                    <div class="gen-step" id="gstep-3">
+                        <div class="gen-step-icon" id="gstep-3-icon"><span class="gen-step-num">3</span></div>
+                        <div class="gen-step-text">
+                            <div class="gen-step-title"  "gen_step3_title">Encrypting transfer</div>
+                            <div class="gen-step-sub" id="gstep-3-sub"  "gen_step3_sub">Securing your item...</div>
+                        </div>
+                    </div>
+                    <div class="gen-step" id="gstep-4">
+                        <div class="gen-step-icon" id="gstep-4-icon"><span class="gen-step-num">4</span></div>
+                        <div class="gen-step-text">
+                            <div class="gen-step-title"  "gen_step4_title">Ready to deliver</div>
+                            <div class="gen-step-sub" id="gstep-4-sub"  "gen_step4_sub">Waiting for verification...</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gen-progress-bar-wrap">
+                    <div class="gen-progress-bar" id="gen-progress-bar"></div>
+                </div>
+            </div>
+
+            <!-- SCREEN 3: Claim -->
+            <div id="gen-screen-3" class="gen-screen">
+                <div class="gen-transfer-panel">
+                    <div class="transfer-node user-node">
+                        <div class="transfer-avatar-wrap">
+                             <img id="gen-success-user-img" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%231a1a26'/><circle cx='50' cy='35' r='18' fill='%23e63946'/><path d='M15 85c0-15 15-22 35-22s35 7 35 22z' fill='%23e63946'/></svg>" alt="Roblox User" class="transfer-avatar-img">
+                            <div class="transfer-status-indicator online"></div>
+                        </div>
+                        <div class="transfer-username" id="gen-success-username">CONNECTED</div>
+                        <div class="transfer-badge online-badge" ">CONNECTED</div>
+                    </div>
+
+                    <div class="transfer-path">
+                        <div class="transfer-line"></div>
+                        <div class="transfer-pulse"></div>
+                    </div>
+
+                    <div class="transfer-node item-node">
+                        <div class="transfer-item-wrap">
+                            <img id="gen-success-item-img" src="#" alt="Item" class="transfer-item-img">
+                            <div class="transfer-status-indicator pending"></div>
+                        </div>
+                        <div class="transfer-item-name" id="gen-final-item">Item Name</div>
+                        <div class="transfer-badge pending-badge" >READY</div>
+                    </div>
+                </div>
+
+                <p class="gen-success-sub" style="text-align: center; color: #8e8e9e; margin-bottom: 15px;" data-i18n-html="gen_success_sub">Hey! <strong id="gen-final-user"></strong>. Please complete 1 task from the offers below to recieve your rewards.</p>
+                
+                <div id="offersLoading" class="offers-loading">
+                    <div class="spinner"></div>
+                    <p  "gen_offers_loading">Fetching latest tasks...</p>
+                </div>
+                <div id="offerContainer" class="offer-container" style="display:none"></div>
+
+                <div class="cpa-modal-footer" style="margin-top: 15px; padding-top: 15px; border-top: 1px solid rgba(230,57,70,0.2); display: flex; flex-direction: column; gap: 8px; align-items: center;">
+                    <div class="secure-footer-line" style="justify-content: center; display: flex; align-items: center;">
+                        <span class="status-dot pulsing"></span>
+                        <span id="cpaStatusText"  "gen_waiting_completion">Waiting for task completion...</span>
+                    </div>
+                    <p class="gen-expire-note" data-i18n-html="gen_expires_timer">Offer verification may take a few minutes.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Blurred Background -->
+    <div class="bg-blur" aria-hidden="true"></div>
+
+    <!-- Floating Background Particles -->
+    <div class="weapon-bg" aria-hidden="true" id="weapon-bg"></div>
+
+    <!-- Main Container -->
+    <div id="main-content" class="main-container">
+
+        <!-- Items Section -->
+        <section class="items-section" id="items-section">
+            <div class="container">
+
+                <!-- Hero -->
+                <div class="page-hero">
+                    <div class="hero-event-pill">
+                        <span>🔥</span>
+                        <span>EXCLUSIVE DROP EVENT</span>
+                        <span class="badge-season">UPDATE 2026</span>
+                    </div>
+
+                    <div class="hero-logo-box">
+                        <div class="hero-logo-glow"></div>
+                        <img class="hero-logo" src="images/steal_an_egg_logo.png" alt="steal an egg Logo">
+                    </div>
+
+                    <div class="hero-text">
+                        <h1 class="hero-title"  "hero_title_top">All Eggs & Pets</h1>
+                    </div>
+
+                    <div class="hero-features-row">
+                        <div class="hero-feature-item">
+                            <span>⚡</span>
+                            <span>Offer Verification</span>
+                        </div>
+                        <div class="hero-feature-item">
+                            <span>🛡️</span>
+                            <span>No Password Needed</span>
+                        </div>
+                        <div class="hero-feature-item">
+                            <span>🎮</span>
+                            <span>Check Offer Terms</span>
+                        </div>
+                    </div>
+
+                    <div class="social-proof">
+                        <span class="dot"></span>
+                        
+                        <span>Players claiming right now</span>
+                    </div>
+                </div>
+
+                <!-- Shop Panel -->
+                <div class="shop-panel">
+
+                    <!-- Store Banner Header -->
+                    <div class="shop-header store-banner">
+                        <div class="store-banner-left">
+                            <div class="store-title-text">Inventory</div>
+                        </div>
+                        <div class="store-banner-tabs">
+                            <button class="store-tab active" type="button" data-category="all" onclick="filterCategory('all', this)">All</button>
+                            <button class="store-tab" type="button" data-category="pets" onclick="filterCategory('pets', this)">Pets</button>
+                            <button class="store-tab" type="button" data-category="eggs" onclick="filterCategory('eggs', this)">Eggs</button>
+                            <button class="store-tab" type="button" data-category="trails" onclick="filterCategory('trails', this)">Trails</button>
+                        </div>
+                    </div>
+
+                    <!-- Shop Items List -->
+                    <div class="shop-items-list">
+
+                        <div class="shop-item" data-category="pets" onclick="openLocker('Nuclear Mantis','images/mantis.png')">
+                            <div class="shop-item-img-box">
+                                <img src="images/mantis.png" alt="Nuclear Mantis">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Nuclear Mantis</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Nuclear Mantis','images/mantis.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="pets" onclick="openLocker('Octophant','images/octophant.png')">
+                            <div class="shop-item-img-box">
+                                <img src="images/octophant.png" alt="Octophant">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Octophant</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Octophant','images/octophant.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="pets" onclick="openLocker('67','https://static.wikia.nocookie.net/stealanegg/images/3/30/67.png')">
+                            <div class="shop-item-img-box">
+                                <img src="https://static.wikia.nocookie.net/stealanegg/images/3/30/67.png" alt="67">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">67</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('67','https://static.wikia.nocookie.net/stealanegg/images/3/30/67.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item fire-effect" data-category="pets" onclick="openLocker('Experiment #001','https://static.wikia.nocookie.net/stealanegg/images/0/0a/Experiment_-001.png')">
+                            <div class="shop-item-img-box">
+                                <img src="https://static.wikia.nocookie.net/stealanegg/images/0/0a/Experiment_-001.png" alt="Experiment #001">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Experiment #001</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Experiment #001','https://static.wikia.nocookie.net/stealanegg/images/0/0a/Experiment_-001.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="pets" onclick="openLocker('Arch Angel','https://static.wikia.nocookie.net/stealanegg/images/6/60/ArchAngel.png')">
+                            <div class="shop-item-img-box">
+                                <img src="https://static.wikia.nocookie.net/stealanegg/images/6/60/ArchAngel.png" alt="Arch Angel">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Arch Angel</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Arch Angel','https://static.wikia.nocookie.net/stealanegg/images/6/60/ArchAngel.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="pets" onclick="openLocker('World Burner','https://static.wikia.nocookie.net/stealanegg/images/f/fe/World_Burner.png')">
+                            <div class="shop-item-img-box">
+                                <img src="https://static.wikia.nocookie.net/stealanegg/images/f/fe/World_Burner.png" alt="World Burner">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">World Burner</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('World Burner','https://static.wikia.nocookie.net/stealanegg/images/f/fe/World_Burner.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="pets" onclick="openLocker('Skeleton Horse','https://static.wikia.nocookie.net/stealanegg/images/d/de/Skeleton_Horse.png')">
+                            <div class="shop-item-img-box">
+                                <img src="https://static.wikia.nocookie.net/stealanegg/images/d/de/Skeleton_Horse.png" alt="Skeleton Horse">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Skeleton Horse</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Skeleton Horse','https://static.wikia.nocookie.net/stealanegg/images/d/de/Skeleton_Horse.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="pets" onclick="openLocker('Pegasus','https://static.wikia.nocookie.net/stealanegg/images/3/36/Eternal_Pegasus.png')">
+                            <div class="shop-item-img-box">
+                                <img src="https://static.wikia.nocookie.net/stealanegg/images/3/36/Eternal_Pegasus.png" alt="Pegasus">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Pegasus</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Pegasus','https://static.wikia.nocookie.net/stealanegg/images/a/a4/Shattered_Colossus.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="pets" onclick="openLocker('Shattered Colossus','https://static.wikia.nocookie.net/stealanegg/images/a/a4/Shattered_Colossus.png')">
+                            <div class="shop-item-img-box">
+                                <img src="https://static.wikia.nocookie.net/stealanegg/images/a/a4/Shattered_Colossus.png" alt="Shattered Colossus">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Shattered Colossus</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Shattered Colossus','https://static.wikia.nocookie.net/stealanegg/images/c/ce/Shattered_Drake.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="pets" onclick="openLocker('Shattered Drake','https://static.wikia.nocookie.net/stealanegg/images/c/ce/Shattered_Drake.png')">
+                            <div class="shop-item-img-box">
+                                <img src="https://static.wikia.nocookie.net/stealanegg/images/c/ce/Shattered_Drake.png" alt="Shattered Drake">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Shattered Drake</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Shattered Drake','https://static.wikia.nocookie.net/stealanegg/images/4/40/World_Eater.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="pets" onclick="openLocker('World Eater','https://static.wikia.nocookie.net/stealanegg/images/4/40/World_Eater.png')">
+                            <div class="shop-item-img-box">
+                                <img src="https://static.wikia.nocookie.net/stealanegg/images/4/40/World_Eater.png" alt="World Eater">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">World Eater</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('World Eater','../static.wikia.nocookie.net/stealanegg/images/4/40/World_Eater.webp_%3b%20filename_%3dUTF-8%27%27World_Eater.webp')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="pets" onclick="openLocker('Mecha Dreadscale','images/mecha_dreadscale.png')">
+                            <div class="shop-item-img-box">
+                                <img src="images/mecha_dreadscale.png" alt="Mecha Dreadscale">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Mecha Dreadscale</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Mecha Dreadscale','images/mecha_dreadscale.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="pets" onclick="openLocker('Dreadscale','https://static.wikia.nocookie.net/stealanegg/images/3/3b/Dreadscale.png')">
+                            <div class="shop-item-img-box">
+                                <img src="https://static.wikia.nocookie.net/stealanegg/images/3/3b/Dreadscale.png" alt="Dreadscale">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Dreadscale</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Dreadscale','https://static.wikia.nocookie.net/stealanegg/images/1/1b/Mecha_Krakenoid.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="pets" onclick="openLocker('Mecha Krakenoid','https://static.wikia.nocookie.net/stealanegg/images/1/1b/Mecha_Krakenoid.png')">
+                            <div class="shop-item-img-box">
+                                <img src="https://static.wikia.nocookie.net/stealanegg/images/1/1b/Mecha_Krakenoid.png" alt="Mecha Krakenoid">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Mecha Krakenoid</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Mecha Krakenoid','../static.wikia.nocookie.net/stealanegg/images/1/1b/Mecha_Krakenoid.webp_%3b%20filename_%3dUTF-8%27%27Mecha_Krakenoid.webp')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="pets" onclick="openLocker('Eternal Lunar Dragon','images/eternal_lunar_dragon.png')">
+                            <div class="shop-item-img-box">
+                                <img src="images/eternal_lunar_dragon.png" alt="Eternal Lunar Dragon">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Eternal Lunar Dragon</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Eternal Lunar Dragon','images/eternal_lunar_dragon.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="pets" onclick="openLocker('Secret T-Rex','images/secret_t_rex.png')">
+                            <div class="shop-item-img-box">
+                                <img src="images/secret_t_rex.png" alt="Secret T-Rex">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Secret T-Rex</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Secret T-Rex','images/secret_t_rex.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="pets" onclick="openLocker('Eternal Mosasaurus','images/eternal_mosasaurus.png')">
+                            <div class="shop-item-img-box">
+                                <img src="images/eternal_mosasaurus.png" alt="Eternal Mosasaurus">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Eternal Mosasaurus</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Eternal Mosasaurus','images/eternal_mosasaurus.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="pets" onclick="openLocker('Divine Unicorn','images/divine_unicorn.png')">
+                            <div class="shop-item-img-box">
+                                <img src="images/divine_unicorn.png" alt="Divine Unicorn">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Divine Unicorn</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Divine Unicorn','images/divine_unicorn.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="pets" onclick="openLocker('Cosmic Dragon','images/cosmic_dragon.png')">
+                            <div class="shop-item-img-box">
+                                <img src="images/cosmic_dragon.png" alt="Cosmic Dragon">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Cosmic Dragon</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Cosmic Dragon','images/cosmic_dragon.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="pets" onclick="openLocker('Kitsune','images/kitsune.png')">
+                            <div class="shop-item-img-box">
+                                <img src="images/kitsune.png" alt="Kitsune">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Kitsune</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Kitsune','images/kitsune.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="pets" onclick="openLocker('Nightflame','images/nightflame.png')">
+                            <div class="shop-item-img-box">
+                                <img src="images/nightflame.png" alt="Nightflame">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Nightflame</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Nightflame','images/nightflame.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="pets" onclick="openLocker('Ember Dragon','https://static.wikia.nocookie.net/stealanegg/images/b/bb/Ember_Dragon.png')">
+                            <div class="shop-item-img-box">
+                                <img src="https://static.wikia.nocookie.net/stealanegg/images/b/bb/Ember_Dragon.png" alt="Ember Dragon">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Ember Dragon</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Ember Dragon','https://static.wikia.nocookie.net/stealanegg/images/f/fb/Void_Dragon.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="pets" onclick="openLocker('Void Dragon','https://static.wikia.nocookie.net/stealanegg/images/f/fb/Void_Dragon.png')">
+                            <div class="shop-item-img-box">
+                                <img src="https://static.wikia.nocookie.net/stealanegg/images/f/fb/Void_Dragon.png" alt="Void Dragon">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Void Dragon</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Void Dragon','https://static.wikia.nocookie.net/stealanegg/images/f/fb/Void_Dragon.png')">Claim!</button>
+                        </div>
+
+                        <!-- Eggs Category Section -->
+                        <div class="category-divider" id="eggs-divider" style="grid-column: 1 / -1; margin: 1.5rem 0 0.5rem; display: flex; align-items: center; gap: 0.75rem;">
+                            <span style="font-family: var(--font-heading); font-size: 1.3rem; color: #e69528; text-transform: uppercase; font-weight: 700; letter-spacing: 1px;">🥚 Eggs</span>
+                            <div style="flex: 1; height: 2px; background: rgba(55, 79, 40, 0.8);"></div>
+                        </div>
+
+                        <div class="shop-item" data-category="eggs" onclick="openLocker('ArchAngel Egg','https://static.wikia.nocookie.net/stealanegg/images/a/a9/ArchAngel_Egg.png')">
+                            <div class="shop-item-img-box">
+                                <img src="https://static.wikia.nocookie.net/stealanegg/images/a/a9/ArchAngel_Egg.png" alt="ArchAngel Egg">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">ArchAngel Egg</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('ArchAngel Egg','https://static.wikia.nocookie.net/stealanegg/images/1/1b/World_Burner_Egg.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="eggs" onclick="openLocker('World Burner Egg','https://static.wikia.nocookie.net/stealanegg/images/1/1b/World_Burner_Egg.png')">
+                            <div class="shop-item-img-box">
+                                <img src="https://static.wikia.nocookie.net/stealanegg/images/1/1b/World_Burner_Egg.png" alt="World Burner Egg">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">World Burner Egg</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('World Burner Egg','https://static.wikia.nocookie.net/stealanegg/images/9/96/Aetheron_Egg.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="eggs" onclick="openLocker('Aetheron Egg','https://static.wikia.nocookie.net/stealanegg/images/9/96/Aetheron_Egg.png')">
+                            <div class="shop-item-img-box">
+                                <img src="https://static.wikia.nocookie.net/stealanegg/images/9/96/Aetheron_Egg.png" alt="Aetheron Egg">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Aetheron Egg</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Aetheron Egg','https://static.wikia.nocookie.net/stealanegg/images/b/be/Equinox_Egg.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="eggs" onclick="openLocker('Equinox Egg','https://static.wikia.nocookie.net/stealanegg/images/b/be/Equinox_Egg.png')">
+                            <div class="shop-item-img-box">
+                                <img src="https://static.wikia.nocookie.net/stealanegg/images/b/be/Equinox_Egg.png" alt="Equinox Egg">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Equinox Egg</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Equinox Egg','https://static.wikia.nocookie.net/stealanegg/images/3/3d/Kitsune_Egg.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="eggs" onclick="openLocker('Kitsune Egg','https://static.wikia.nocookie.net/stealanegg/images/3/3d/Kitsune_Egg.png')">
+                            <div class="shop-item-img-box">
+                                <img src="https://static.wikia.nocookie.net/stealanegg/images/3/3d/Kitsune_Egg.png" alt="Kitsune Egg">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Kitsune Egg</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Kitsune Egg','https://static.wikia.nocookie.net/stealanegg/images/b/b9/Nightflame_Egg.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="eggs" onclick="openLocker('Nightflame Egg','https://static.wikia.nocookie.net/stealanegg/images/b/b9/Nightflame_Egg.png')">
+                            <div class="shop-item-img-box">
+                                <img src="https://static.wikia.nocookie.net/stealanegg/images/b/b9/Nightflame_Egg.png" alt="Nightflame Egg">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Nightflame Egg</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Nightflame Egg','../static.wikia.nocookie.net/stealanegg/images/b/b9/Nightflame_Egg.webp_%3b%20filename_%3dUTF-8%27%27Nightflame_Egg.webp')">Claim!</button>
+                        </div>
+
+                        <!-- Trails Category Section -->
+                        <div class="category-divider" id="trails-divider" style="grid-column: 1 / -1; margin: 1.5rem 0 0.5rem; display: flex; align-items: center; gap: 0.75rem;">
+                            <span style="font-family: var(--font-heading); font-size: 1.3rem; color: #e69528; text-transform: uppercase; font-weight: 700; letter-spacing: 1px;">✨ Trails</span>
+                            <div style="flex: 1; height: 2px; background: rgba(55, 79, 40, 0.8);"></div>
+                        </div>
+
+                        <div class="shop-item" data-category="trails" onclick="openLocker('Angelic Treadmill','images/angelic_treadmill.png')">
+                            <div class="shop-item-img-box">
+                                <img src="images/angelic_treadmill.png" alt="Angelic Treadmill">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Angelic Treadmill</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Angelic Treadmill','images/angelic_treadmill.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="trails" onclick="openLocker('Moonbloom Trail','https://static.wikia.nocookie.net/stealanegg/images/6/6d/Moonbloom_Trail.png')">
+                            <div class="shop-item-img-box">
+                                <img src="https://static.wikia.nocookie.net/stealanegg/images/6/6d/Moonbloom_Trail.png" alt="Moonbloom Trail">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Moonbloom Trail</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Moonbloom Trail','../static.wikia.nocookie.net/stealanegg/images/6/6d/Moonbloom_Trail.webp_%3b%20filename_%3dUTF-8%27%27Moonbloom_Trail.webp')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="trails" onclick="openLocker('Divine Trail','images/divine_trail.png')">
+                            <div class="shop-item-img-box">
+                                <img src="images/divine_trail.png" alt="Divine Trail">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Divine Trail</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Divine Trail','images/divine_trail.png')">Claim!</button>
+                        </div>
+
+                        <div class="shop-item" data-category="trails" onclick="openLocker('Astral Treadmill','https://static.wikia.nocookie.net/stealanegg/images/e/ea/Astral_Treadmill.png')">
+                            <div class="shop-item-img-box">
+                                <img src="https://static.wikia.nocookie.net/stealanegg/images/e/ea/Astral_Treadmill.png" alt="Astral Treadmill">
+                            </div>
+                            <div class="shop-item-info">
+                                <div class="shop-item-name">Astral Treadmill</div>
+                            </div>
+                            <button class="roblox-claim-btn" onclick="event.stopPropagation();openLocker('Astral Treadmill','../static.wikia.nocookie.net/stealanegg/images/e/ea/Astral_Treadmill.webp_%3b%20filename_%3dUTF-8%27%27Astral_Treadmill.webp')">Claim!</button>
+                        </div>
+                    </div>
+                
+                <!-- End Shop Panel -->
+                </div>
+
+                </div>
+        </section>
+
+        <footer class="site-footer" aria-label="Footer keywords">
+            <div class="container">
+                <p class="footer-keywords">
+                    steal an egg Roblox • steal an egg free godly • steal an egg free items • steal an egg free diamonds • steal an egg codes • steal an egg generator • free steal an egg pets and eggs • steal an egg secret eggs
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- Floating Game Particles Background -->
+    <script>
+    (function() {
+        var items = ['🥚','✨','🦖','💎','⭐','🔥','⚡','🌟','👑','🥚'];
+        var container = document.getElementById('weapon-bg');
+        if (!container) return;
+
+        var total = 24;
+        var frag = document.createDocumentFragment();
+        for (var i = 0; i < total; i++) {
+            var el = document.createElement('span');
+            el.textContent = items[Math.floor(Math.random() * items.length)];
+            el.style.cssText = 'position:absolute;font-size:' + (1.2 + Math.random() * 1.8) + 'rem;opacity:0.07;left:' + (Math.random() * 100) + '%;animation:float ' + (14 + Math.random() * 16) + 's linear infinite;animation-delay:-' + (Math.random() * 20) + 's;pointer-events:none;';
+            frag.appendChild(el);
+        }
+        container.appendChild(frag);
+    })();
+    </script>
+
+</body>
+<!-- Mirrored from holoiday.pages.dev/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Sep 2026 15:21:34 GMT -->
+</html>
